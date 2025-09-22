@@ -2,10 +2,13 @@ import { AfterViewInit, Component, ElementRef, OnDestroy, ViewChild } from '@ang
 import { RouterModule } from '@angular/router';
 import { SidebarService } from '../../services/sidebar.service';
 import { CommonModule } from '@angular/common';
+import { ThemeToggleButton } from '../../components/theme-toggle-button/theme-toggle-button';
+import { NotificationDropdown } from '../../components/notification-dropdown/notification-dropdown';
+import { UserDropdown } from '../../components/user-dropdown/user-dropdown';
 
 @Component({
   selector: 'app-header',
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule, RouterModule, ThemeToggleButton, NotificationDropdown, UserDropdown],
   templateUrl: './header.html',
   styleUrl: './header.css',
 })
@@ -32,7 +35,7 @@ export class Header implements AfterViewInit, OnDestroy {
   }
 
   ngAfterViewInit() {
-    // document.addEventListener('keydown', this.handleKeyDown);
+    // document?.addEventListener('keydown', this.handleKeyDown);
   }
 
   ngOnDestroy() {
