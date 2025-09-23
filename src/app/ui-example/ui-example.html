@@ -1,0 +1,63 @@
+<div>
+  <app-page-breadcrumb pageTitle="UI Examples" />
+
+  <div class="space-y-5 sm:space-y-6">
+    <!-- Primary Button  -->
+    <div>
+      <app-component-card title="Primary Button">
+        <div class="flex items-center gap-5">
+          <app-button size="sm" variant="primary"> Button Text </app-button>
+          <app-button size="md" variant="primary"> Button Text </app-button>
+        </div>
+      </app-component-card>
+    </div>
+    <!-- Primary Button with Start Icon -->
+    <div>
+      <app-component-card title="Primary Button with Left Icon">
+        <div class="flex items-center gap-5">
+          <app-button size="sm" variant="primary" [startIcon]="boxIcon"> Button Text </app-button>
+          <app-button size="md" variant="primary" [startIcon]="boxIcon"> Button Text </app-button>
+        </div>
+      </app-component-card>
+    </div>
+
+    <!-- Badges - Example -->
+    <div>
+      <app-component-card title="With Light Background">
+        <div class="flex flex-wrap gap-4 sm:items-center sm:justify-center">
+          <!-- Light Variant -->
+          <div><app-badge variant="light" color="primary"> Primary </app-badge></div>
+          <div><app-badge variant="light" color="success"> Success </app-badge></div>
+          <div><app-badge variant="light" color="error"> Error </app-badge></div>
+          <div><app-badge variant="light" color="warning"> Warning </app-badge></div>
+          <div><app-badge variant="light" color="info"> Info </app-badge></div>
+          <div><app-badge variant="light" color="light"> Light </app-badge></div>
+          <div><app-badge variant="light" color="dark"> Dark </app-badge></div>
+        </div>
+      </app-component-card>
+    </div>
+    <!-- Alert - Example -->
+    <div>
+      <app-component-card title="Success Alert">
+        <div>
+          <app-alert
+            variant="success"
+            title="Success Message"
+            message="Be cautious when performing this action."
+            [showLink]="true"
+            linkHref="/"
+            linkText="Learn more"
+          />
+        </div>
+        <div>
+          <app-alert
+            variant="success"
+            title="Success Message"
+            message="Be cautious when performing this action."
+            [showLink]="false"
+          />
+        </div>
+      </app-component-card>
+    </div>
+  </div>
+</div>
