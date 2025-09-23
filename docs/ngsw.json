@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1758587456296,
+  "timestamp": 1758588083970,
   "index": "/segundo-parcial-ti-mauro-moya/index.csr.html",
   "assetGroups": [
     {
@@ -16,9 +16,9 @@
         "/segundo-parcial-ti-mauro-moya/favicon.ico",
         "/segundo-parcial-ti-mauro-moya/index.csr.html",
         "/segundo-parcial-ti-mauro-moya/index.html",
-        "/segundo-parcial-ti-mauro-moya/main-H5SDPWY5.js",
+        "/segundo-parcial-ti-mauro-moya/main-6J3EZO5U.js",
         "/segundo-parcial-ti-mauro-moya/manifest.webmanifest",
-        "/segundo-parcial-ti-mauro-moya/styles-WHNLORMX.css"
+        "/segundo-parcial-ti-mauro-moya/styles-B4BW2WUG.css"
       ],
       "patterns": []
     },
@@ -293,11 +293,11 @@
     "/segundo-parcial-ti-mauro-moya/images/user/user-37.jpg": "5af40ebdfc0a84dda49e41cb24e1a063203ad61d",
     "/segundo-parcial-ti-mauro-moya/images/video-thumb/thumb-16.png": "67fe3ac40e614cca0e655384715e0889308f427b",
     "/segundo-parcial-ti-mauro-moya/images/video-thumb/youtube-icon-84.svg": "6a35733f1be4150cc497cd4366a7c2362c2e6f67",
-    "/segundo-parcial-ti-mauro-moya/index.csr.html": "fbb11ff7634e5bb3533268e812a11005f2ebacfc",
-    "/segundo-parcial-ti-mauro-moya/index.html": "8785fd5896d28c8a003a9d278ac2061bd56c07c5",
-    "/segundo-parcial-ti-mauro-moya/main-H5SDPWY5.js": "90a6276c7c5f1a5e0698511365f7745c0684ac14",
+    "/segundo-parcial-ti-mauro-moya/index.csr.html": "ad0b4cc51c4f6927725a6c09f4dd048947acf805",
+    "/segundo-parcial-ti-mauro-moya/index.html": "41b3687a4e09bbd6004378d363df92e493edce7f",
+    "/segundo-parcial-ti-mauro-moya/main-6J3EZO5U.js": "31653bc98043fb7b3dd3e12c75d80ec747abafbc",
     "/segundo-parcial-ti-mauro-moya/manifest.webmanifest": "1d9d9928102bda956e0e5fa45e626f76dc911334",
-    "/segundo-parcial-ti-mauro-moya/styles-WHNLORMX.css": "9918bd632aed40b18b8383526ba730809b7b5201"
+    "/segundo-parcial-ti-mauro-moya/styles-B4BW2WUG.css": "75213aafd75731cf9c884a5ceb7fea65960108aa"
   },
   "navigationUrls": [
     {
