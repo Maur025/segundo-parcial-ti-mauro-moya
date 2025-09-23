@@ -4,6 +4,27 @@ Repositorio del segundo parcial de la materia Tecnologias de Internet
 
 **Mauro Eduardo Moya Palli**
 
+## Instalación - Uso
+
+Este proyecto utiliza [pnpm](https://pnpm.io/) como gestor de paquetes.
+
+1. Clonar el repositorio
+   ```bash
+   git clone git@github.com:Maur025/segundo-parcial-ti-mauro-moya.git
+   ```
+2. Instalar las dependencias
+   ```bash
+   pnpm install
+   ```
+3. Ejecutar la aplicación
+   ```bash
+   pnpm start
+   ```
+4. Abrir en el navegador
+   ```
+   http://localhost:4200
+   ```
+
 ## CSS Framework
 
 Se utilizo el framework [tailwindcss](https://tailwindcss.com/) para el diseño de la pagina web.
