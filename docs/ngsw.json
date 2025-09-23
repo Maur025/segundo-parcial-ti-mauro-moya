@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1758588083970,
+  "timestamp": 1758588750058,
   "index": "/segundo-parcial-ti-mauro-moya/index.csr.html",
   "assetGroups": [
     {
@@ -24,7 +24,7 @@
     },
     {
       "name": "assets",
-      "installMode": "lazy",
+      "installMode": "prefetch",
       "updateMode": "prefetch",
       "cacheQueryOptions": {
         "ignoreVary": true
